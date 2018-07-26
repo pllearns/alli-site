@@ -1,0 +1,97 @@
+p {
+  font-size: 18px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 125px;
+}
+
+.App-header {
+  background-color: #000;
+  height: 150px;
+  padding: 5px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.main-jumbotron {
+  background-image: url('./be_an_ally_2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: lighten;
+  padding: 150px;
+}
+
+.events {
+  margin: 15px;
+  background: url('./events_upd.png') center;
+  background-color: rgba(255, 255, 255, 0.3);
+  background-blend-mode: lighten;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  padding: 30px;
+  color: white;
+  text-shadow: 2px 2px #000;
+}
+
+.jobs {
+  margin: 15px;
+  background: url('./jobs_upd.png') center;
+  background-color: rgba(255, 255, 255, 0.3);
+  background-blend-mode: lighten;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  padding: 30px;
+  color: white;
+  text-shadow: 2px 2px #000;
+}
+.mentors {
+  margin: 15px;
+  background: url('./mentor.png') center;
+  background-color: rgba(255, 255, 255, 0.3);
+  background-blend-mode: lighten;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  padding: 30px;
+  color: white;
+  text-shadow: 2px 2px #000;
+}
+
+.facebook-info {
+  margin: 15px;
+  background: url('./facebook_image_3.png') center no-repeat;
+  background-color: rgba(255, 255, 255, 0.3);
+  background-blend-mode: lighten;
+}
+
+.coming-soon {
+  margin: 15px;
+  background: url('./AlliBot_logo_3.png') center;
+  background-color: rgba(255, 255, 255, 0.3);
+  background-blend-mode: lighten;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
