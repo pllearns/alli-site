@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import AppBar from 'material-ui/AppBar';
-import AlliBot from '../AlliBot.png';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 export default class Header extends Component {
@@ -8,7 +7,6 @@ export default class Header extends Component {
     return (
       <MuiThemeProvider>
         <AppBar color='secondary' position='sticky'>
-          <img src={AlliBot} className="App-logo" alt="alli-bot-logo" />
         </AppBar>
       </MuiThemeProvider>
     )
