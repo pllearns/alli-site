@@ -7,7 +7,7 @@ export default class Header extends Component {
   render() {
     return (
       <MuiThemeProvider>
-        <AppBar color='secondary' positionSticky='sticky'>
+        <AppBar color='secondary' position='sticky'>
           <img src={AlliBot} className="App-logo" alt="alli-bot-logo" />
         </AppBar>
       </MuiThemeProvider>
