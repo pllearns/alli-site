@@ -10,13 +10,6 @@ p {
   height: 125px;
 }
 
-.App-header {
-  background-color: #000;
-  height: 150px;
-  padding: 5px;
-  color: white;
-}
-
 .App-title {
   font-size: 1.5em;
 }
@@ -26,7 +19,6 @@ p {
 }
 
 .main-jumbotron {
-  background-image: url('./be_an_ally_2.png');
   background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: lighten;

@@ -1,9 +1,21 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
-import { Jumbotron, Button, ButtonToolbar, Grid, Row, Col } from 'react-bootstrap';
+import { createMuiTheme } from '@material-ui/core/styles';
+import purple from '@material-ui/core/colors/purple'
+import { Jumbotron, ButtonToolbar, Grid, Row, Col } from 'react-bootstrap';
+import Button from '@material-ui/core/Button';
 import './App.css';
 
 const alliButtonGrid = { maxWidth: 400, margin: '0 auto 10px' };
+
+const theme = createMuiTheme({
+  palette: {
+    primary: purple,
+    secondary: {
+      main: '#f44336',
+    },
+  },
+});
 
 class App extends Component {
   render() {
