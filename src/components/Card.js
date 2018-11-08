@@ -14,14 +14,17 @@ import withWidth from '@material-ui/core/withWidth';
 
 const WithWidth = toRenderProps(withWidth());
 
-const styles = {
+const styles = theme => ({
+  root: {
+    flexGrow: 1,
+  },
   card: {
     maxWidth: 450,
   },
   media: {
     height: 140,
   },
-};
+});
 
 
 const services = [
@@ -54,10 +57,10 @@ function MediaCard(props) {
 
   return (
     <WithWidth>
-      {({ width }) => <div>
-        {services.map((service) =>
-          <Grid container spacing={40}>
-            <Grid item xs={3}>
+      {({ width }) => <div className={classes.root}>
+        <Grid container direction="row" spacing={24}>
+          {services.map((service) =>
+            <Grid item xs zeroMinWidth>
               <Card key={service.id}
                 className={classes.card}>
                 <CardActionArea>
@@ -82,8 +85,8 @@ function MediaCard(props) {
                 </CardActions>
               </Card>
             </Grid>
-          </Grid>
-        )}
+          )}
+        </Grid>
       </div>
       }
     </WithWidth>

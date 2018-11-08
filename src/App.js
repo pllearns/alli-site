@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from './components/Header';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
-import ServiceCard from './components/Card';
+import Card from './components/Card';
 import toRenderProps from 'recompose/toRenderProps';
 import withWidth from '@material-ui/core/withWidth';
 import './App.css';
@@ -27,7 +27,7 @@ class App extends Component {
                 </Button>
             </div>
             <div className="main-info">
-              <ServiceCard />
+              <Card />
               <Grid>
                 <div>
                   <div class="fb-page" data-href="https://www.facebook.com/AlliBotWantsYouToSucceed/" data-width="1900" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
