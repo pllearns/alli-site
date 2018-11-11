@@ -1,14 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 import AppBar from 'material-ui/AppBar';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 
-export default class Header extends Component {
-  render() {
-    return (
-      <MuiThemeProvider>
-        <AppBar color='secondary' position='sticky'>
-        </AppBar>
-      </MuiThemeProvider>
-    )
-  }
-}
+
+/**
+ * A simple example of `AppBar` with an icon on the right.
+ * By default, the left icon is a navigation-menu.
+ */
+const Header = () => (
+  <MuiThemeProvider>
+    <AppBar
+      title="AlliBot"
+      iconClassNameRight="muidocs-icon-navigation-expand-more"
+    />
+  </MuiThemeProvider>
+);
+
+export default Header;
